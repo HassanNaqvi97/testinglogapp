@@ -1,0 +1,14 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "StorageConnectionString": "UseDevelopmentStorage=true",
+    "ServiceBusConnection": "<your-service-bus-connection-string>",
+    "ServiceBusQueueName": "weather-requests",
+    "RequestPayloadContainer": "weather-request-payloads",
+    "ResponsePayloadContainer": "weather-response-payloads",
+    "ActivityLogsContainer": "activity-logs",
+    "ActivityLogsTable": "WeatherActivityLogs"
+  }
+}
