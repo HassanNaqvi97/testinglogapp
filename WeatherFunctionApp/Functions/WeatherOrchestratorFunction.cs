@@ -91,7 +91,6 @@ public sealed class WeatherOrchestratorFunction
     }
 
     [Function(nameof(ProcessWeatherQueueAsync))]
-    [FixedDelayRetry(3, "00:00:10")]
     public async Task ProcessWeatherQueueAsync(
         [ServiceBusTrigger("%ServiceBusQueueName%", Connection = "ServiceBusConnection")]
         ServiceBusReceivedMessage serviceBusMessage,
