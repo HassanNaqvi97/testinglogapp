@@ -21,6 +21,10 @@ A sample **.NET 8 isolated Azure Function App** that demonstrates end-to-end act
 - `WeatherFunctionApp/Services/WeatherService.cs`
   - Mock weather provider implementation.
 
+## Solution file
+
+- `testinglogapp.sln` includes the `WeatherFunctionApp` project for Visual Studio / solution-based workflows.
+
 ## Configuration
 
 Set these values in `WeatherFunctionApp/local.settings.json` (or app settings in Azure):
